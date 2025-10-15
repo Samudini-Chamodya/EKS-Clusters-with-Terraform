@@ -10,7 +10,6 @@ terraform {
     bucket         = "dev-samu-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
     encrypt        = true
   }
 }
